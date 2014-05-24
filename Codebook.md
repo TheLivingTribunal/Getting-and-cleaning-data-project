@@ -8,17 +8,16 @@ However, this project is concerned with only those features which are means or s
 The Subject number was combined with the corresponding test and train data. The Activity Name was obtained by using the activity_labels.txt file and then merging the test+train dataset with the Activity dataset on the Activity Number column.
 
 The naming format of the original dataset was changed to make it more readable. The Naming Convention used for the 79 Features is as follows - 
-
-1) The first 4 letters denote whether the measurement is of type Time or Frequency. It is written as Time/Freq
-2) The next 4 letters denote whether the measurement is of type Body or Gravity, depicted as Body/Grav
-3) The next 3 letters show whether the measurement is taken from the Accelerometer or the Gyroscope, shown as Acc/Gyr
-4) The next 4 optional letters are “Jerk” which, when present, indicate that the measurement is for a Jerk type.
-5) The next string is a categorical variable of 3 levels. Level “Mean” denotes that the measurement is an average quantity, whereas level “WtMean” represents a Weighted average quantity. The final level “STD” signifies that the recording is a standard deviation.
-6) The Final String represents the measurements taken along theX, Y or Z coordinate and can also take the value “Mag” which represents Magnitude( a resultant of X, Y and Z measurements).
+* The first 4 letters denote whether the measurement is of type Time or Frequency. It is written as Time/Freq
+* The next 4 letters denote whether the measurement is of type Body or Gravity, depicted as Body/Grav
+* The next 3 letters show whether the measurement is taken from the Accelerometer or the Gyroscope, shown as Acc/Gyr
+* The next 4 optional letters are “Jerk” which, when present, indicate that the measurement is for a Jerk type.
+* The next string is a categorical variable of 3 levels. Level “Mean” denotes that the measurement is an average quantity, whereas level “WtMean” represents a Weighted average quantity. The final level “STD” signifies that the recording is a standard deviation.
+* The Final String represents the measurements taken along theX, Y or Z coordinate and can also take the value “Mag” which represents Magnitude( a resultant of X, Y and Z measurements).
 
 The attached code creates two Datasets -
-1) Raw Dataset
-2) Final Tidy Dataset
+* Raw Dataset
+* Final Tidy Dataset
 
 Both the mentioned sets contain 81 unique variables. 
 
